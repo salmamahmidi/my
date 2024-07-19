@@ -1,0 +1,52 @@
+/* styles.css */
+
+/* Style the body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Light grey background for contrast */
+}
+
+/* Style the .frame class */
+.frame {
+    border: 5px solid black; /* Black border for the outer frame */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Space between the border and the canvas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+/* Style the .canvas class */
+.canvas {
+    background-color: #4b2e1d; /* Dark brown background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* Shadow effect */
+}
+
+/* Style the .one, .two, and .three classes */
+.one, .two, .three {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Shadow effect for color blocks */
+}
+
+.one {
+    background-color: #d2b48c; /* Light tan background */
+}
+
+.two {
+    background-color: #8b0000; /* Dark red background */
+}
+
+.three {
+    background-color: #ff0000; /* Brighter red background */
+    border-radius: 20px; /* Rounded corners */
+}
